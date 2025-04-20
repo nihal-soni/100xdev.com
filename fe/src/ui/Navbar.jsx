@@ -1,7 +1,7 @@
 
 const navlinks = [
     { name: "Home", path: "/" },
-    { name: "Courses", path: "/courses" },
+    { name: "Courses", path: "/ThreeDCard.jsx" },
     { name: "Testimonials", path: "/tesimonials" },
     { name: "Faq's", path: "/faq" },
 ];

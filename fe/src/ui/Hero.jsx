@@ -1,13 +1,12 @@
 import harkiratImage from '../assets/harkirat.png';
-import FloatingCourses from '../components/FloatingCourses';
-import FloatingTech from '../components/FloatingCourses';
+import FloatingTech from '../components/FloatingTechs';
 
 
 const Hero = () => {
 
     return (
         <section className="py-24 overflow-x-clip">
-               <FloatingCourses/>
+               <FloatingTech/>
             <div className="relative max-w-7xl mx-auto px-4">
 
                 <div className="text-center space-y-2">
@@ -32,16 +31,13 @@ const Hero = () => {
                         <span className="text-xl leading-none">→</span>
                     </a>
                 </div>
-
-
                 <div className="flex justify-center mt-12">
                     <img
                         src={harkiratImage}
                         alt="Instructor Harkirat"
-                        className="max-w-l shadow-lg"
+                        className="max-w-l shadow-lg overflow-hidden"
                     />
                 </div>
-            
             </div>
         </section>
     );

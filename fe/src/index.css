@@ -8,7 +8,18 @@
     transform: translateY(-8px);
   }
 }
+body {
+  background-color: black;
+  color: white; /* You might also want to change the text color to make it readable */
+}
+
 
 .animate-float {
   animation: float 4s ease-in-out infinite;
+}
+.perspective-1000 {
+  perspective: 1000px;
+}
+.transform-style-3d {
+  transform-style: preserve-3d;
 }
