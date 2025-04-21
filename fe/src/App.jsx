@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './ui/Navbar'
 import Hero from './ui/Hero'
 import ThreeDCard from './ui/ThreeDCard'
+import Faq from './ui/Faq'
+// import Footer from './ui/Footer'
 
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
       <Navbar />
       <Hero />
       <ThreeDCard />
+      <Faq />
+      {/* <Footer /> */}
     </div>
   )
 }

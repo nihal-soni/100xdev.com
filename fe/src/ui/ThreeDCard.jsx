@@ -11,7 +11,7 @@ export default function ThreeDCard() {
   return (
     <section className="py-6 px-6">
       <div className="flex justify-center items-center text-center">
-       <h1 className="text-4xl font-bold font-['Roboto']">What You'll Learn with us</h1>
+       <h1 className="text-4xl font-bold font-['Roboto'] animate-bounce">What You'll Learn with us</h1>
         </div>
     <div className="flex items-center justify-center gap-6">
     <CardContainer className="inter-var">
@@ -44,7 +44,7 @@ export default function ThreeDCard() {
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-xl bg-black cursor-pointer dark:bg-white dark:text-black text-white text-xs font-bold"
           >
            Buy Now
           </CardItem>
@@ -82,7 +82,7 @@ export default function ThreeDCard() {
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-xl bg-black cursor-pointer dark:bg-white dark:text-black text-white text-xs font-bold"
           >
            Buy Now
           </CardItem>
@@ -120,7 +120,7 @@ export default function ThreeDCard() {
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-xl bg-black cursor-pointer dark:bg-white dark:text-black text-white text-xs font-bold"
           >
            Buy Now
           </CardItem>
@@ -160,7 +160,7 @@ export default function ThreeDCard() {
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-xl cursor-pointer bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
            Buy Now
           </CardItem>
@@ -198,7 +198,7 @@ export default function ThreeDCard() {
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-xl cursor-pointer bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
            Buy Now
           </CardItem>
