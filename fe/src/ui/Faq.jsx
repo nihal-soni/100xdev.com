@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react"; 
+import { ChevronDown, ChevronUp } from "lucide-react"; // using lucide icons
+
 const faqs = [
    {
       question: "Q. Why should I choose 100xDevs?",
@@ -39,7 +40,7 @@ const faqs = [
 ];
 
 const Faq = () => {
-   const [openIndex, setOpenIndex] = useState(null);
+   const [openIndex, setOpenIndex] = useState(null); 
 
    const toggleFaq = (index) => {
       setOpenIndex(openIndex === index ? null : index);

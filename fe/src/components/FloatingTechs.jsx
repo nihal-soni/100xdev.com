@@ -10,7 +10,7 @@ const courses = [
 
 const FloatingCourses = () => {
   return (
-    <div className="absolute inset-0 z-0 pointer-events-none">
+    <div className="absolute inset-0 z-0 pointer-events-none lg:block hidden">
       {courses.map((course, index) => (
         <a
           key={index}
