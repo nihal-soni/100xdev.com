@@ -4,7 +4,8 @@ import Hero from './ui/Hero'
 import ThreeDCard from './ui/ThreeDCard'
 // import TestimonialSection from './ui/Testimonials'
 import Faq from './ui/Faq'
-// import Footer from './ui/Footer'
+import Vision from './ui/Vision'
+import Footer from './ui/Footer'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <ThreeDCard />
       {/* <TestimonialSection /> */}
       <Faq />
-      {/* <Footer /> */}
+      <Vision />
+      <Footer />
     </div>
   )
 }

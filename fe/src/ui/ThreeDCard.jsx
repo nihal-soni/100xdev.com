@@ -14,9 +14,9 @@ export default function ThreeDCard() {
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-['Roboto']">What You'll Learn with us</h1>
       </div>
       
-      {/* Cards container with proper sizing */}
+  
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-        {/* Card 1 */}
+   
         <CardContainer className="inter-var">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-4 md:p-6 border">
             <CardItem translateZ={50} className="text-lg md:text-xl font-bold text-neutral-600 dark:text-white">
@@ -46,7 +46,7 @@ export default function ThreeDCard() {
           </CardBody>
         </CardContainer>
 
-        {/* Card 2 */}
+       
         <CardContainer className="inter-var">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-4 md:p-6 border">
             <CardItem translateZ={50} className="text-lg md:text-xl font-bold text-neutral-600 dark:text-white">
@@ -76,7 +76,7 @@ export default function ThreeDCard() {
           </CardBody>
         </CardContainer>
 
-        {/* Card 3 */}
+    
         <CardContainer className="inter-var">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-4 md:p-6 border">
             <CardItem translateZ={50} className="text-lg md:text-xl font-bold text-neutral-600 dark:text-white">
@@ -106,7 +106,6 @@ export default function ThreeDCard() {
           </CardBody>
         </CardContainer>
 
-        {/* Card 4 */}
         <CardContainer className="inter-var">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-4 md:p-6 border">
             <CardItem translateZ={50} className="text-lg md:text-xl font-bold text-neutral-600 dark:text-white">
@@ -135,8 +134,6 @@ export default function ThreeDCard() {
             </div>
           </CardBody>
         </CardContainer>
-
-        {/* Card 5 */}
         <CardContainer className="inter-var">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-4 md:p-6 border">
             <CardItem translateZ={50} className="text-lg md:text-xl font-bold text-neutral-600 dark:text-white">
